@@ -1,5 +1,5 @@
 //author:Owen Price
-
+#define   SPKR_1  5
 #define   LED_1   6
 #define   LED_2   10
 #define   LED_3   11
@@ -14,15 +14,27 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(LED_1, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(LED_1, LOW);
-  delay(1000);
+  delay(250);
   digitalWrite(LED_2, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(LED_2, LOW);
-  delay(1000);
+  delay(250);
   digitalWrite(LED_3, HIGH);
-  delay(1000);
+  delay(500);
   digitalWrite(LED_3, LOW);
-  delay(1000);
+  delay(250);
+  digitalWrite(LED_1, HIGH);
+  delay(200);
+  digitalWrite(LED_1, LOW);
+  delay(100);
+  digitalWrite(LED_1, HIGH);
+  delay(200);
+  digitalWrite(LED_1, LOW);
+  delay(100);
+  digitalWrite(LED_1, HIGH);
+  delay(200);
+  digitalWrite(LED_1, LOW);
+  delay(100); 
 }
